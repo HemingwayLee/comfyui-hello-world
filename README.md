@@ -4,7 +4,15 @@
   * `--max-size 0` means original size, it might have OOM issue
   * `--max-size 512` will give you slightly bad result
 
-# Note:
+# How to run
+* run `bash bash scripts/setup.sh`
+* run the following command in a terminal
+```
+python ComfyUI/main.py --use-pytorch-cross-attention --listen 127.0.0.1 --port 8188
+```
+
+* run the following command in another terminal
+
 ## change image style
 * it seems good while changing the image into other style
 ```
