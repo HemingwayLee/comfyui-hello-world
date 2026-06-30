@@ -1,3 +1,9 @@
+.DS_Store
+data/
+input_cloth_change/
+input_image_a_style/
+input_text_removal/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -213,6 +219,11 @@ tempCodeRunnerFile.py
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ComfyUI installation and generated content
+ComfyUI/
+input_images/
+output_images/
 
 # Streamlit
 .streamlit/secrets.toml

@@ -1,0 +1,23 @@
+# PyTorch — MPS is auto-detected on Apple Silicon, no extra index URL needed
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# ComfyUI runtime deps (subset — full list in ComfyUI/requirements.txt)
+numpy>=1.26
+scipy
+Pillow>=10.0
+tqdm
+psutil
+pyyaml
+aiohttp
+einops
+transformers>=4.40
+safetensors>=0.4
+accelerate
+tokenizers
+kornia
+spandrel
+
+# Inference script
+requests>=2.31
