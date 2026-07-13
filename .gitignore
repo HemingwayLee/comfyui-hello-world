@@ -1,8 +1,6 @@
 .DS_Store
 data/
-input_cloth_change/
-input_image_a_style/
-input_text_removal/
+input_*/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
